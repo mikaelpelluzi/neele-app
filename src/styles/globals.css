@@ -1,8 +1,24 @@
+@font-face {
+  font-family: "SFPro";
+  src: url("/fonts/SFPro/SFPro-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SFPro";
+  src: url("/fonts/SFPro/SFPro-Semibold.ttf");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
 html,
 body {
+  background-color: #41ecb8;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: SFPro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -13,4 +29,29 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.text-dark-green {
+  color: #53755a;
+}
+
+.logo-neele {
+  width: 100px;
+}
+
+.img-section {
+  width: 100%;
+}
+
+.icone-apple {
+  width: 27%;
+}
+
+.icone-google {
+  width: 30%;
+}
+
+.title-neele {
+  color: #38d560;
+  font-size: 60px;
 }
