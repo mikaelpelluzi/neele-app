@@ -19,8 +19,8 @@ export default function Home() {
 
       <main>
         <div className="container">
-          <div className="row pt-4">
-            <div className="col ml-5">
+          <div className="row pt-5">
+            <div className="col">
               <div className="d-flex pb-2">
                 <img className="logo-neele" src="img/Neele-app.png" alt=""/>
                 <h1 className="title-neele mb-0 align-self-end">eele</h1>
@@ -29,11 +29,10 @@ export default function Home() {
               <p className="text-dark-green py-3">unique method based on effective techniques used by famous Pollygots.</p>
                 <div className="row justify-content-around py-5">
                   <img className="icone-apple" src="img/apple-icon2.png" alt=""/>
-                  <img className="icone-goole" src="img/google-icon2.png" alt=""/>
                 </div>
             </div>
-            <div className="col">
-              <img className="img-section" src="img/Pasted-7.png" alt=""/>
+            <div className="col px-5">
+              <img className="img-section ml-4" src="img/neele-content.jpeg" alt=""/>
             </div>
           </div>
         </div>

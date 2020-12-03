@@ -37,21 +37,18 @@ a {
 
 .logo-neele {
   width: 100px;
+  height: 110px;
 }
 
 .img-section {
-  width: 100%;
+  width: 75%;
+  box-shadow: 0px 0px 10px 0px darkgreen;
 }
 
 .icone-apple {
-  width: 27%;
+  width: auto;
 }
-
-.icone-google {
-  width: 30%;
-}
-
 .title-neele {
-  color: #38d560;
+  color: #fff;
   font-size: 60px;
 }
